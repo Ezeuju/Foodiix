@@ -15,7 +15,7 @@ let generateItems = () => {
         let {id, image, clothName, price} = x;
         let search = basket.find((x) => x.id === id) || []
         return `
-        <div id=product-${id} data-aos="fade-up-right" data-aos-duration="3000" class="aos-init aos-animate pro pro2">
+        <div id=product-${id} data-aos="fade-up" data-aos-duration="3000" class="aos-init aos-animate pro pro2">
             <img src=${image} alt="">
             <div class="des">
                 <span>adidas</span>
