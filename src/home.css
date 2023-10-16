@@ -66,6 +66,11 @@ p{
     margin: 40px 0;
 }
 
+i, 
+button{
+    cursor: pointer;
+}
+
 button.normal{
     font-size: 14px;
     font-weight: 600;
