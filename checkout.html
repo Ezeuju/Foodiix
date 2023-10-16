@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImprressWears</title>
+    <link rel="icon" type="image/png" href="./Assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        body {
+            font-family: Arial;
+            font-size: 17px;
+            padding: 8px;
+        }
+
+        *{            
+            box-sizing: border-box;
+            font-family: 'Spartan', sans-serif;
+        }
+
+        .row {
+            max-width: 80%;
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            /* IE10 */
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+
+        .col-25 {
+            -ms-flex: 25%;
+            /* IE10 */
+            flex: 25%;
+        }
+
+        .col-50 {
+            -ms-flex: 50%;
+            /* IE10 */
+            flex: 50%;
+        }
+
+        .col-75 {
+            -ms-flex: 75%;
+            /* IE10 */
+            flex: 75%;
+        }
+
+        .col-25,
+        .col-50,
+        .col-75 {
+            padding: 0 16px;
+        }
+
+        .container {
+            background-color: #f2f2f2;
+            padding: 5px 20px 15px 20px;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+        }
+
+        select,
+        input[type=text],
+        input[type=number],
+        input[type=date],
+        input[type=password] {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+            color: grey;
+        }
+
+        label {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .icon-container {
+            margin-bottom: 20px;
+            padding: 7px 0;
+            font-size: 24px;
+        }
+
+        .others{
+            margin-bottom: 1rem;
+        }
+
+        .others p{
+            color: grey;
+            font-size: 12px;
+        }
+
+        .btn {
+            background-color: #a7674e;
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            width: 100%;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+        form{
+            padding-top: 2rem;
+        }
+
+        .payy img{
+            border: 1px solid #a7674e;
+            border-radius: 6px;
+        }
+
+        i{
+            color: #a7674e;
+        }
+
+        a {
+            color: #2196F3;
+        }
+
+        hr {
+            border: 1px solid lightgrey;
+        }
+
+        span.price {
+            float: right;
+            color: grey;
+        }
+
+        @media (max-width: 800px) {
+            .row {
+                flex-direction: column-reverse;
+            }
+
+            .col-25 {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>BILLING ADDRESS</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your Full Name">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="email@gmail.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input type="text" id="adr" name="address" placeholder="Address">
+                            <label for="cars">Select State:</label>
+                                    <select name="state" id="state">
+                                        <option value="Abia">Abia</option>                                     
+                                        <option value="Adamawa">Adamawa</option>                                     
+                                        <option value="Akwa Ibom">Akwa Ibom</option>                                     
+                                        <option value="Anambra">Anambra</option>                                     
+                                        <option value="Bauchi">Bauchi</option>                                     
+                                        <option value="Bayelsa">Bayelsa</option>                                     
+                                        <option value="Benue">Benue</option>                                     
+                                        <option value="Borno">Borno</option>                                     
+                                        <option value="Cross River">Cross River</option>                                     
+                                        <option value="Delta">Delta</option>                                     
+                                        <option value="Ebonyi">Ebonyi</option>                                     
+                                        <option value="Edo">Edo</option>                                     
+                                        <option value="Ekiti">Ekiti</option>                                     
+                                        <option value="Enugu">Enugu</option>                                     
+                                        <option value="Gombe">Gombe</option>                                     
+                                        <option value="Imo">Imo</option>                                     
+                                        <option value="Jigawa">Jigawa</option>                                     
+                                        <option value="Kaduna">Kaduna</option>                                     
+                                        <option value="Kano">Kano</option>                                     
+                                        <option value="Katsina">Katsina</option>                                     
+                                        <option value="Kebbi">Kebbi</option>                                     
+                                        <option value="Kogi">Kogi</option>                                     
+                                        <option value="Kwara">Kwara</option>                                     
+                                        <option value="Lagos">Lagos</option>                                     
+                                        <option value="Nasarawa">Nasarawa</option>                                     
+                                        <option value="Niger">Niger</option>                                     
+                                        <option value="Ogun">Ogun</option>                                     
+                                        <option value="Ondo">Ondo</option>                                     
+                                        <option value="Osun">Osun</option>                                     
+                                        <option value="Oyo">Oyo</option>                                     
+                                        <option value="Plateau">Plateau</option>                                     
+                                        <option value="Rivers">Rivers</option>                                     
+                                        <option value="Sokoto">Sokoto</option>                                     
+                                        <option value="Taraba">Taraba</option>                                     
+                                        <option value="Yobe">Yobe</option>                                     
+                                        <option value="Zamfara">Zamfara</option>                                     
+                                    </select>
+
+                            <div class="row">                                
+                                <div class="col-50">
+                                    <label for="zip">Zip</label>
+                                    <input type="text" id="zip" name="zip" placeholder="10001">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>PAYMENT</h3>
+                            <label for="fname">Accepted Cards</label>
+                            <div class="payy">
+                                <img src="./Assets/pay/app.jpg" alt="">
+                                <img src="./Assets/pay/play.jpg" alt="">
+                            </div>
+                            <div class="others">
+                                <p>Secure Gateways Payment</p>
+                                <img src="./Assets/pay/pay.png" alt="">
+                            </div>                           
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="Card  Name">
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Expiry date</label>
+                            <input type="date" id="expmonth" name="expmonth">
+                            <div class="row">                                
+                                <div class="col-50">
+                                    <label for="cvv">CVV</label>
+                                    <input type="password" id="cvv" name="cvv" placeholder="352">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                    </label>
+                    <input type="submit" value="Continue to checkout" class="btn">
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
