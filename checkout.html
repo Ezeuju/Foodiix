@@ -155,9 +155,22 @@
             color: grey;
         }
 
-        @media (max-width: 800px) {
+        @media (max-width: 799px) {
+            .row {
+                /* flex-direction: column-reverse; */
+                max-width: 100%;
+                margin: 0;
+            }
+
+            .col-25 {
+                margin-bottom: 20px;
+            }
+        }
+        @media (max-width: 477px) {
             .row {
                 flex-direction: column-reverse;
+                max-width: 100%;
+                margin: 0;
             }
 
             .col-25 {
