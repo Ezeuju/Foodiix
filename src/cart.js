@@ -7,7 +7,8 @@ let cartList = document.getElementById('cartlist')
 let subTotal = document.getElementById('cartSubTotal')
 let final = document.getElementById('cartTot')
 let cartBtn = document.getElementById('clear-btn')
-let checkOut = document.getElementById('check-out')
+let checkOut = document.getElementById('checkOut')
+let checkOutt = document.getElementById('checkOutt')
 
 // HAMBURGER OPENING AND CLOSING MENU
 hamburger.addEventListener('click', () => {
@@ -155,6 +156,7 @@ let removebtn = () => {
     if(basket.length === 0){
         cartBtn.remove()
         checkOut.remove()
+        checkOutt.remove()
     } else return
 }
 
