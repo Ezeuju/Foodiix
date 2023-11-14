@@ -2,98 +2,98 @@
 const products = [
     {
         id : 'uhfjsk',
-        image : './Assets/product/f1.jpg',
-        clothName : 'Vintage Astronaut T-Shirt',
+        image : './Assets/rice.jpg',
+        clothName : 'Rice',
         price : 78
     },
     {
         id : 'idjhnj',
-        image : './Assets/product/f2.jpg',
-        clothName : 'Vintage Astronaut T-Shirt',
+        image : './Assets/carrots.jpg',
+        clothName : 'Carrots',
         price : 78
     },
     {
         id : 'jfhjru',
-        image : './Assets/product/f3.jpg',
-        clothName : 'Vintage Astronaut T-Shirt',
+        image : './Assets/groundnut-oil.webp',
+        clothName : 'Groundnut Oil',
         price : 78
     },
     {
         id : 'jskkoe',
-        image : './Assets/product/f4.jpg',
-        clothName : 'Vintage Astronaut T-Shirt',
+        image : './Assets/fish.jpg',
+        clothName : 'Scumbia Fish',
         price : 78
     },
     {
         id : 'oidjry',
-        image : './Assets/product/f5.jpg',
-        clothName : 'Vintage Astronaut T-Shirt',
+        image : './Assets/beans.jpg',
+        clothName : 'Beans',
         price : 78
     },
     {
         id : 'iyshue',
-        image : './Assets/product/f6.jpg',
-        clothName : 'Hight Quality Long Sleeve',
+        image : './Assets/palm-oil.jpg',
+        clothName : 'Palm Oil',
         price : 88
     },
     {
         id : 'iiskey',
-        image : './Assets/product/f7.jpg',
-        clothName : 'Hight Quality Jumper Jean',
+        image : './Assets/pepper.jpg',
+        clothName : 'Pepper',
         price : 90
     },
     {
         id : 'jakiie',
-        image : './Assets/product/f8.jpg',
-        clothName : 'Womens Quality Long Sleeve',
+        image : './Assets/Periwinkle-DeyChop.jpg',
+        clothName : 'Periwinkle',
         price : 45
     },
     {
         id : 'loauur',
-        image : './Assets/product/n1.jpg',
-        clothName : 'Blue Long Sleeve Shirt',
+        image : './Assets/egg.webp',
+        clothName : 'Egg',
         price : 30
     },
     {
         id : 'kkiayr',
-        image : './Assets/product/n2.jpg',
-        clothName : 'Long Sleeve Shirt',
+        image : './Assets/tomatoes.jpg',
+        clothName : 'Tomatoes',
         price : 30
     },
     {
         id : 'qquwit',
-        image : './Assets/product/n3.jpg',
-        clothName : 'White Long Sleeve Shirt',
+        image : './Assets/yam.webp',
+        clothName : 'yam',
         price : 30
     },
     {
         id : 'ppowur',
-        image : './Assets/product/n4.jpg',
-        clothName : 'Astronaut Short Sleeve Shirt',
+        image : './Assets/sweet.jpg',
+        clothName : 'Sweet Potatoes',
         price : 45
     },
     {
         id : 'zzjsur',
-        image : './Assets/product/n5.jpg',
-        clothName : 'Quality Long Sleeve Jean Shirt',
+        image : './Assets/onions.jpg',
+        clothName : 'Onions',
         price : 90
     },
     {
         id : 'ookisy',
-        image : './Assets/product/n6.jpg',
-        clothName : 'Shorts for Men',
+        image : './Assets/meat.avif',
+        clothName : 'Meat',
         price : 70
     },
     {
         id : 'ttyshr',
-        image : './Assets/product/n7.jpg',
-        clothName : 'Quality Long Sleeve for Men',
+        image : './Assets/crayfish.webp',
+        clothName : 'Crayfish',
         price : 85
     },
     {
         id : 'iiahyr',
-        image : './Assets/product/n8.jpg',
-        clothName : 'Short Sleeve Shirt for Men',
+        image : './Assets/chicken.webp',
+        clothName : 'Chicken',
         price : 45
     },
 ]

@@ -105,7 +105,7 @@ button.white{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: var(--headerColor);
+    background-color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
@@ -113,6 +113,7 @@ button.white{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 #navbar li{
@@ -213,7 +214,7 @@ button.white{
 
 /* Home Page */
 #hero{
-    background-image: url(../Assets/hero2.jpg);
+    background-image: url(../Assets/tomatoes.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -223,19 +224,27 @@ button.white{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    z-index: 1;
+    opacity: 0.8;
+
 }
 
 #hero h4{
     padding-bottom: 15px;
+    color: #fff;
 }
-
+#hero h2{
+    color: #fff;
+    z-index: 2;
+    opacity: 0;
+}
 #hero h1{
-    color: var(--primary);
+    color: #fff;
 }
 
 #hero button{
-    background-image: url(../Assets/button.png);
-    background-color: transparent;
+    /* background-image: url(../Assets/button.png); */
+    background-color: #fff;
     color: var(--primary);
     border: 0;
     padding: 14px 80px 14px 65px;
@@ -243,6 +252,9 @@ button.white{
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+}
+#hero p{
+    color: #fff;
 }
 
 #feature{
@@ -376,7 +388,7 @@ button.white{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(../Assets/banner/b2.jpg);
+    background-image: url(../Assets/food2.jpg);
     width: 100%;
     height: 40vh;
     background-position: center;
